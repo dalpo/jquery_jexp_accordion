@@ -1,0 +1,46 @@
+##SAMPLE CODE##
+
+<ul class="accordion" id="product_menu">
+    <li class="">
+
+        <a href="#" class="jexp-header">PRODUCT 1</a>        <div class="jexp-content">
+            HELLO WORLD!<br/>
+        </div>
+    </li>
+    <li class="">
+        <a href="#" class="jexp-header">PRODUCT 2</a>        <div class="jexp-content">
+
+            HELLO WORLD!<br/>
+        </div>
+    </li>
+    <li class="">
+        <a href="#" class="jexp-header">PRODUCT 3</a>        <div class="jexp-content">
+            HELLO WORLD!<br/>
+        </div>
+
+    </li>
+    <li class="">
+        <a href="#" class="jexp-header">PRODUCT 4</a>        <div class="jexp-content">
+            HELLO WORLD!<br/>
+            HELLO WORLD
+        </div>
+    </li>
+    <li class="">
+
+        <a href="#" class="jexp-header">OFFERTE</a>        <div class="jexp-content">
+            <a href="#link">link →</a><br/>
+            <a href="#link">link →</a><br/>
+            <a href="#link">link →</a><br/>
+            <a href="#link">link →</a><br/>
+            <a href="#link">link →</a><br/>
+
+            <a href="#link">link →</a>
+        </div>
+    </li>
+</ul>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".accordion").jExpAccordion();
+    });
+</script>
+
